@@ -9,7 +9,7 @@ st.write("Masukkan data pelanggan di bawah ini untuk memprediksi apakah pelangga
 # 2. Load Model
 @st.cache_resource
 def load_model():
-    return joblib.load('churn_sotify.pkl')
+    return joblib.load('churn_spotify.pkl')
 
 model = load_model()
 
